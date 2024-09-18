@@ -1,0 +1,10 @@
+@charset "UTF-8";
+
+body {
+	text-align: center;
+	margin: auto;
+}
+
+h1 {
+	color: #369;
+}
