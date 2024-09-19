@@ -54,8 +54,8 @@ public class HelloServlet extends HttpServlet {
 		}
 		out.println("</tbody>");
 		out.println("</table>");
-		out.println("<img src=" + croot + "/image/pic1.webp' width='500px'/>");
-		out.println("<br><a href='../'>Go Home</br>");
+		out.println("<br/><img src='" + croot + "/image/pic1.webp' width='500px'/>");
+		out.println("<br><a href='" + croot + "/'>Go Home</br>");
 		out.println("</body>");
 		out.println("</html>");
 		out.close();

@@ -1,4 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">
-<refactoring comment="Rename resource &apos;myWeb/src/main/webapp/image/a_ov_Pepe_160928.webp&apos; to &apos;pic1.webp&apos;" description="Rename resource &apos;a_ov_Pepe_160928.webp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/image/a_ov_Pepe_160928.webp" name="pic1.webp" stamp="1726648394618" updateReferences="true"/>
-</session>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;myWeb/src/main/webapp/image/a_ov_Pepe_160928.webp&apos; to &apos;pic1.webp&apos;" description="Rename resource &apos;a_ov_Pepe_160928.webp&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/webapp/image/a_ov_Pepe_160928.webp" name="pic1.webp" stamp="1726648394618" updateReferences="true"/>&#x0A;&#x0A;&#x0A;</session>

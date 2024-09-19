@@ -14,6 +14,20 @@
 	<p>
 		current time is:
 		<%=SimpleDateFormat.getInstance().format(new Date())%></p>
-	<p><a href="admin/hello.aspx">Hello Servlet</a></p>	
+	<p>
+		<a href="admin/hello.aspx">Hello Servlet</a>
+	</p>
+	<p>
+		<a href="admin/dump.view">Dump Servlet</a>
+	</p>
+	<p>
+		<a href="customer/createCustomer.jsp">CreateCustomer</a>
+	</p>
+	<p>
+		<a href="hello.jsp">Hello</a>
+	</p>
+	<p>
+		<a href="admin/dump.jsp">Dump Servlet</a>
+	</p>
 </body>
 </html>

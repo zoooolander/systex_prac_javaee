@@ -1,0 +1,30 @@
+<%@page import="java.text.SimpleDateFormat"%>
+<%@page import="java.util.Date"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<%!int a = 100;%>
+	<%
+	int a = 500;
+	%>
+	a =<%=a%><br /> current time is:
+	<%=SimpleDateFormat.getInstance().format(new Date())%>
+	<!-- html comment -->
+	<%
+	//java comment
+	%>
+	<%-- jsp comment --%>
+	<br /> User-agent:
+	<%=request.getHeader("User-Agent")%>
+	User-agent:
+	<%
+	out.println(request.getHeader("User-Agent"));
+	%>
+</body>
+</html>
