@@ -29,5 +29,8 @@
 	<p>
 		<a href="admin/dump.jsp">Dump Servlet</a>
 	</p>
+	<p>
+		<a href="customer/createCustomer1.jsp">測試交談時期</a>
+	</p>
 </body>
 </html>

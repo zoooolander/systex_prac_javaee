@@ -3,4 +3,5 @@
     <fullyQualifiedTypeName name="org.apache.catalina.tribes.group.interceptors.SimpleCoordinator"/>
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+    <fullyQualifiedTypeName name="java.util.Arrays"/>
 </qualifiedTypeNameHistroy>

@@ -29,4 +29,37 @@
     <servlet-name>DumpServlet</servlet-name>
     <url-pattern>/admin/dump.view</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>CreateCustomerController</display-name>
+    <servlet-name>CreateCustomerController</servlet-name>
+    <servlet-class>com.systex.controller.CreateCustomerController</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>CreateCustomerController</servlet-name>
+    <url-pattern>/customer/ccController.do</url-pattern>
+  </servlet-mapping>
+  <filter>
+    <display-name>EncodingFilter</display-name>
+    <filter-name>EncodingFilter</filter-name>
+    <filter-class>com.systex.util.EncodingFilter</filter-class>
+  </filter>
+  <filter-mapping>
+    <filter-name>EncodingFilter</filter-name>
+    <url-pattern>/*</url-pattern>
+    <dispatcher>REQUEST</dispatcher>
+    <dispatcher>FORWARD</dispatcher>
+    <dispatcher>INCLUDE</dispatcher>
+    <dispatcher>ERROR</dispatcher>
+  </filter-mapping>
+  <servlet>
+    <description></description>
+    <display-name>createCustomer</display-name>
+    <servlet-name>createCustomer</servlet-name>
+    <servlet-class>com.systex.controller.createCustomer</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>createCustomer</servlet-name>
+    <url-pattern>/customer/createCustomer.do</url-pattern>
+  </servlet-mapping>
 </web-app>
