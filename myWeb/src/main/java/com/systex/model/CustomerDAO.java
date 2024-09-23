@@ -21,7 +21,7 @@ public class CustomerDAO {
     private static final String RETRIEVE_BY_ACCOUNT_STMT =
             "SELECT * FROM Customer  WHERE account=?";
 
-    public static Connection getConnection() {
+    public static Connection getConnection2() {
         DataSource ds = null;
         Connection con = null;
         try {
@@ -42,13 +42,13 @@ public class CustomerDAO {
         return con;
     }
 
-    public static Connection getConnection2() {
+    public static Connection getConnection() {
         Connection con = null;
         try {
             Class.forName("com.mysql.jdbc.Driver");
-            String url = "jdbc:mysql://localhost:3306/crm";
+            String url = "jdbc:mysql://localhost:3306/crmdb";
             String id = "root";
-            String pw = "root";
+            String pw = "welcome1";
             con = DriverManager.getConnection(url, id, pw);
         } catch (Exception e) {
             e.printStackTrace();
